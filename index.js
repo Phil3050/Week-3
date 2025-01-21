@@ -1,1 +1,3 @@
-console.log("Pongpan Sripiboon")
+const prompt = require('prompt-sync')();
+let name = prompt("Enter Your Name : ");
+console.log(name);
