@@ -104,3 +104,46 @@
 // 5.8 const isPrime = n => n > 1 && [...Array(n).keys()].slice(2).every(i => n % i);
 // console.log(isPrime(7));  
 // console.log(isPrime(0)); 
+
+// 6.1 const prompt = require('prompt-sync')(); 
+
+// let friends = [];
+
+// for (let i = 0; i < 5; i++) {
+//     console.log(`Enter information for friend ${i + 1}:`);
+    
+
+//     let studentID = prompt("Enter student ID: ");
+//     let firstName = prompt("Enter first name: ");
+//     let lastName = prompt("Enter last name: ");
+//     let phoneNumber = prompt("Enter phone number: ");
+    
+
+//     let houseNumber = prompt("Enter house number: ");
+//     let district = prompt("Enter district: ");
+//     let subDistrict = prompt("Enter sub-district: ");
+//     let province = prompt("Enter province: ");
+//     let postalCode = prompt("Enter postal code: ");
+    
+
+//     let friend = {
+//         studentID: studentID,
+//         firstName: firstName,
+//         lastName: lastName,
+//         phoneNumber: phoneNumber,
+//         address: {
+//             houseNumber: houseNumber,
+//             district: district,
+//             subDistrict: subDistrict,
+//             province: province,
+//             postalCode: postalCode
+//         }
+//     };
+
+
+//     friends.push(friend);
+// }
+
+// console.log("\nFriends Information:");
+// console.log(friends);
+
